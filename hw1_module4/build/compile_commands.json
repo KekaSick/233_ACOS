@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task1.dir/task1.c.o -c /Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task1.c",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task1.c",
+  "output": "CMakeFiles/task1.dir/task1.c.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task2.dir/task2.c.o -c /Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task2.c",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task2.c",
+  "output": "CMakeFiles/task2.dir/task2.c.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task3.dir/task3.c.o -c /Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task3.c",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task3.c",
+  "output": "CMakeFiles/task3.dir/task3.c.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task4.dir/task4.c.o -c /Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task4.c",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/task4.c",
+  "output": "CMakeFiles/task4.dir/task4.c.o"
+}
+]

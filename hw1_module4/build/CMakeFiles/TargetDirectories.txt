@@ -1,0 +1,6 @@
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/task1.dir
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/task2.dir
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/task3.dir
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/task4.dir
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/edit_cache.dir
+/Users/mverzhbitskiy/Documents/GitHub/233_ACOS/hw1_module4/build/CMakeFiles/rebuild_cache.dir
