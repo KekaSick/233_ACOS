@@ -1,24 +1,25 @@
-all:	malloc test testcpp test_improvements test_free_list
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99
+TARGET = regex_replace
+SOURCE = regex_replace.c
 
-malloc:
-	gcc -Wall -g -shared -fpic -o libmalloc.so malloc.c
-test:
-	gcc -g test.c -o test
-testcpp:
-	g++ -g test.cpp -o testcpp
-test_improvements:
-	gcc -g test_improvements.c -o test_improvements
-test_free_list:
-	gcc -g test_free_list.c -o test_free_list
-run:	malloc test
-	LD_PRELOAD="./libmalloc.so" ./test
-runcpp:	malloc testcpp
-	LD_PRELOAD="./libmalloc.so" ./testcpp
-run_improvements: malloc test_improvements
-	LD_PRELOAD="./libmalloc.so" ./test_improvements
-run_free_list: malloc test_free_list
-	LD_PRELOAD="./libmalloc.so" ./test_free_list
-debug:
-	gdb -iex "set exec-wrapper env LD_PRELOAD=./libmalloc.so" ./test
+all: $(TARGET)
+
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
 clean:
-	rm -f test testcpp test_improvements test_free_list *.so *.o 
+	rm -f $(TARGET)
+
+test: $(TARGET)
+	@echo "Testing regex replacement..."
+	@echo "Test 1: Replace 'world' with 'universe'"
+	./$(TARGET) "world" "Hello world! Welcome to the world." "universe"
+	@echo ""
+	@echo "Test 2: Replace digits with 'X'"
+	./$(TARGET) "[0-9]+" "The year is 2024 and the price is 99.99" "X"
+	@echo ""
+	@echo "Test 3: Replace multiple spaces with single space"
+	./$(TARGET) "[ ]+" "This   has    multiple     spaces" " "
+
+.PHONY: all clean test 
